@@ -110,14 +110,25 @@ Accompagné·e à chaque étape, jamais laissé·e seul·e.
 
 ## 9. Tarifs et mutuelle
 
-> ⚠️ Rien de tout cela n'existe dans la maquette actuelle. Sans ces montants,
-> la page « Déroulement et tarifs » ne peut pas être écrite.
+Le tarif dépend de la durée, quel que soit le motif. Même grille en présentiel
+et en visioconsultation.
 
-- Tarif de la première consultation (bilan initial) : [À COMPLÉTER]
-- Tarif d'une consultation de suivi : [À COMPLÉTER]
-- Tarif de la visioconsultation : [À COMPLÉTER]
+| Durée | Tarif |
+| --- | --- |
+| 15 min (appel téléphonique ou vidéo) | 40 € |
+| 30 min | 80 € |
+| 45 min | 100 € |
+| 60 min (bilan initial) | 120 € |
+
+- Tarif de la première consultation (bilan initial, 60 min) : **120 €**
+- Tarif d'une consultation de suivi : **80 €** (30 min) ou **100 €** (45 min)
+- Tarif de la visioconsultation : **même grille** que le présentiel
 - Forfait éventuel pour le suivi complet : [À COMPLÉTER]
+- **Non-conventionnée** : les honoraires sont libres et le remboursement passe
+  par l'assurance complémentaire de la mutuelle, pas par l'INAMI.
 - Remboursement mutuelle — montant et conditions, par mutuelle : [À COMPLÉTER]
+  (ex. « la plupart des mutuelles remboursent X € par séance, Y séances par an,
+  sur présentation de l'attestation que je vous remets »)
 - Moyens de paiement acceptés : [À COMPLÉTER]
 - Conditions d'annulation : [À COMPLÉTER]
 - Faut-il une prescription du médecin ? [À COMPLÉTER]
@@ -140,21 +151,21 @@ en anglais.
 
 ### Types de consultation et durées
 
-Relevés sur Doctor Anytime. **Les tarifs n'y sont pas publics** : la plateforme
-exige une inscription pour les afficher, et Rosa ne les montre pas non plus.
-À remplir par Valentine.
+Types relevés sur Doctor Anytime, tarifs donnés par Valentine.
+Le tarif dépend uniquement de la durée : 15 min 40 € · 30 min 80 €
+· 45 min 100 € · 60 min 120 €.
 
 | Type de consultation | Durée | Tarif |
 | --- | --- | --- |
-| Bilan nutritionnel | 60 min | [À COMPLÉTER] |
-| Intolérances alimentaires | 60 min | [À COMPLÉTER] |
-| Consultation longue | 45 min | [À COMPLÉTER] |
-| Perte de poids | 45 min | [À COMPLÉTER] |
-| Fasting Mimicking Diet | 45 min | [À COMPLÉTER] |
-| Visioconsultation | 45 min | [À COMPLÉTER] |
-| Consultation | 30 min | [À COMPLÉTER] |
-| Consultation vidéo | 30 min | [À COMPLÉTER] |
-| Appel téléphonique ou vidéo | 15 min | [À COMPLÉTER] |
+| Bilan nutritionnel | 60 min | 120 € |
+| Intolérances alimentaires | 60 min | 120 € |
+| Consultation longue | 45 min | 100 € |
+| Perte de poids | 45 min | 100 € |
+| Fasting Mimicking Diet | 45 min | 100 € |
+| Visioconsultation | 45 min | 100 € |
+| Consultation | 30 min | 80 € |
+| Consultation vidéo | 30 min | 80 € |
+| Appel téléphonique ou vidéo | 15 min | 40 € |
 
 > Toutes ces prestations doivent-elles figurer sur le site, ou seulement
 > certaines ? [À COMPLÉTER]
@@ -184,8 +195,8 @@ Un avis figure déjà sur la maquette, anonyme :
 
 Les réponses alimenteront les données structurées Google.
 
-1. Combien coûte une consultation ? → [À COMPLÉTER]
-2. Suis-je remboursée par ma mutuelle ? → [À COMPLÉTER]
+1. Combien coûte une consultation ? → Le tarif dépend de la durée : 40 € pour 15 minutes, 80 € pour 30 minutes, 100 € pour 45 minutes, 120 € pour le bilan initial d'une heure. Même grille en visioconsultation.
+2. Suis-je remboursée par ma mutuelle ? → Je suis non-conventionnée : le remboursement passe par l'assurance complémentaire de votre mutuelle. [À COMPLÉTER : montant et nombre de séances]
 3. Faut-il une prescription de mon médecin ? → [À COMPLÉTER]
 4. Consultez-vous en visio ? → Oui, depuis le monde entier, en français comme en anglais.
 5. Combien de temps dure le suivi ? → Environ 3 mois, 4 à 5 consultations maximum.
