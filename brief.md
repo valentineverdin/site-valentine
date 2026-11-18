@@ -105,8 +105,8 @@ Accompagné·e à chaque étape, jamais laissé·e seul·e.
 | Réintroduction | On teste, on ajuste, on élargit votre alimentation en sécurité. |
 | Lien médecin | Un courrier de suivi adressé à votre médecin après chaque bilan. |
 
-- Durée d'une première consultation : [À COMPLÉTER]
-- Durée d'une consultation de suivi : [À COMPLÉTER]
+- Durée d'une première consultation : **60 min** (bilan nutritionnel)
+- Durée d'une consultation de suivi : **30 ou 45 min** selon le type
 
 ## 9. Tarifs et mutuelle
 
@@ -155,8 +155,8 @@ en anglais.
 
 | Lieu | Adresse | Prise de rendez-vous | Lien exact |
 | --- | --- | --- | --- |
-| CHIREC — Hôpital Delta | Boulevard du Triomphe 201, 1160 Auderghem | via le CHIREC | [À COMPLÉTER] |
-| City Clinic Louise | Avenue Louise 235B, 1050 Bruxelles | via le CHIREC | [À COMPLÉTER] |
+| CHIREC — Hôpital Delta | Boulevard du Triomphe 201, 1160 Auderghem | CHIREC ou Rosa | lien CHIREC : [À COMPLÉTER] |
+| City Clinic Louise | Avenue Louise 235b, 1050 Ixelles — **ce n'est pas Delta** | CHIREC ou Rosa | lien CHIREC : [À COMPLÉTER] |
 | Uccle — CEDAD Medical Center | **Rue Beeckman 71**, 1180 Uccle | Doctor Anytime | `https://www.doctoranytime.be/d/dieteticien/verdin-valentine` |
 | Visioconsultation | depuis le monde entier, FR / EN | [À COMPLÉTER] | [À COMPLÉTER] |
 
