@@ -126,9 +126,11 @@ et en visioconsultation.
 - Forfait éventuel pour le suivi complet : [À COMPLÉTER]
 - **Non-conventionnée** : les honoraires sont libres et le remboursement passe
   par l'assurance complémentaire de la mutuelle, pas par l'INAMI.
-- Remboursement mutuelle — montant et conditions, par mutuelle : [À COMPLÉTER]
-  (ex. « la plupart des mutuelles remboursent X € par séance, Y séances par an,
-  sur présentation de l'attestation que je vous remets »)
+- Remboursement mutuelle : **varie d'une mutuelle à l'autre, jusqu'à 25 €
+  par consultation.** Il dépend de l'assurance complémentaire de chaque
+  patiente ; c'est à elle de vérifier auprès de sa mutuelle.
+- Nombre de séances remboursées par an : [À COMPLÉTER]
+- Y a-t-il une attestation à remettre pour obtenir le remboursement ? [À COMPLÉTER]
 - Moyens de paiement acceptés : [À COMPLÉTER]
 - Conditions d'annulation : [À COMPLÉTER]
 - Faut-il une prescription du médecin ? [À COMPLÉTER]
@@ -196,7 +198,7 @@ Un avis figure déjà sur la maquette, anonyme :
 Les réponses alimenteront les données structurées Google.
 
 1. Combien coûte une consultation ? → Le tarif dépend de la durée : 40 € pour 15 minutes, 80 € pour 30 minutes, 100 € pour 45 minutes, 120 € pour le bilan initial d'une heure. Même grille en visioconsultation.
-2. Suis-je remboursée par ma mutuelle ? → Je suis non-conventionnée : le remboursement passe par l'assurance complémentaire de votre mutuelle. [À COMPLÉTER : montant et nombre de séances]
+2. Suis-je remboursée par ma mutuelle ? → En partie. Le montant varie d'une mutuelle à l'autre et peut aller jusqu'à 25 € par consultation. Il dépend de votre assurance complémentaire : le plus sûr est de vérifier directement auprès de votre mutuelle.
 3. Faut-il une prescription de mon médecin ? → [À COMPLÉTER]
 4. Consultez-vous en visio ? → Oui, depuis le monde entier, en français comme en anglais.
 5. Combien de temps dure le suivi ? → Environ 3 mois, 4 à 5 consultations maximum.
