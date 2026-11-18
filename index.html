@@ -2,15 +2,124 @@
 <html lang="fr"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- PROVISOIRE — empêche le référencement tant que le site est incomplet.
-     À RETIRER le jour du lancement (voir aussi robots.txt). -->
-<meta name="robots" content="noindex, nofollow">
+<title>Diététicienne-nutritionniste à Bruxelles — Valentine Verdin</title>
 <meta name="description" content="Valentine Verdin, diététicienne-nutritionniste à Bruxelles. Troubles digestifs (SII, SIBO, IMO), santé de la femme et relation à la nourriture.">
+<link rel="canonical" href="https://www.valentineverdin.be/">
+
+<!-- Aperçu lors du partage du lien (WhatsApp, LinkedIn, Facebook, iMessage…) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_BE">
+<meta property="og:site_name" content="Valentine Verdin">
+<meta property="og:url" content="https://www.valentineverdin.be/">
+<meta property="og:title" content="Diététicienne-nutritionniste à Bruxelles — Valentine Verdin">
+<meta property="og:description" content="Valentine Verdin, diététicienne-nutritionniste à Bruxelles. Troubles digestifs (SII, SIBO, IMO), santé de la femme et relation à la nourriture.">
+<meta property="og:image" content="https://www.valentineverdin.be/assets/og-valentine-verdin.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Valentine Verdin, diététicienne-nutritionniste à Bruxelles">
+<meta name="twitter:card" content="summary_large_image">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap">
 <link rel="stylesheet" href="styles.css">
-<title>Valentine Verdin — Accueil</title>
+
+<!-- Données structurées : décrivent à Google qui tu es, où tu consultes et dans quels domaines. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.valentineverdin.be/#website",
+      "url": "https://www.valentineverdin.be/",
+      "name": "Valentine Verdin — Diététicienne-nutritionniste",
+      "inLanguage": "fr-BE",
+      "publisher": { "@id": "https://www.valentineverdin.be/#cabinet" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.valentineverdin.be/#page",
+      "url": "https://www.valentineverdin.be/",
+      "name": "Diététicienne-nutritionniste à Bruxelles — Valentine Verdin",
+      "description": "Valentine Verdin, diététicienne-nutritionniste à Bruxelles. Troubles digestifs (SII, SIBO, IMO), santé de la femme et relation à la nourriture.",
+      "isPartOf": { "@id": "https://www.valentineverdin.be/#website" },
+      "about": { "@id": "https://www.valentineverdin.be/#valentine" },
+      "primaryImageOfPage": "https://www.valentineverdin.be/assets/og-valentine-verdin.jpg",
+      "inLanguage": "fr-BE"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.valentineverdin.be/#valentine",
+      "name": "Valentine Verdin",
+      "givenName": "Valentine",
+      "familyName": "Verdin",
+      "jobTitle": "Diététicienne-nutritionniste",
+      "url": "https://www.valentineverdin.be/",
+      "image": "https://www.valentineverdin.be/assets/valentine.jpg",
+      "telephone": "+32473341527",
+      "email": "vverdin.diet@gmail.com",
+      "knowsLanguage": ["fr", "en"],
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Université libre de Bruxelles" },
+      "knowsAbout": [
+        "Syndrome de l'intestin irritable",
+        "SIBO",
+        "IMO",
+        "Régime pauvre en FODMAP",
+        "Endométriose",
+        "Syndrome des ovaires polykystiques",
+        "Péri-ménopause et ménopause",
+        "Relation à la nourriture"
+      ],
+      "worksFor": { "@id": "https://www.valentineverdin.be/#cabinet" }
+    },
+    {
+      "@type": "Dietitian",
+      "@id": "https://www.valentineverdin.be/#cabinet",
+      "name": "Valentine Verdin — Diététicienne-nutritionniste",
+      "legalName": "VVERDIN DIET SRL",
+      "url": "https://www.valentineverdin.be/",
+      "image": "https://www.valentineverdin.be/assets/og-valentine-verdin.jpg",
+      "telephone": "+32473341527",
+      "email": "vverdin.diet@gmail.com",
+      "medicalSpecialty": "DietNutrition",
+      "availableLanguage": ["fr", "en"],
+      "founder": { "@id": "https://www.valentineverdin.be/#valentine" },
+      "employee": { "@id": "https://www.valentineverdin.be/#valentine" },
+      "identifier": [
+        { "@type": "PropertyValue", "name": "Numéro d'entreprise (BCE)", "value": "1037.780.531" },
+        { "@type": "PropertyValue", "name": "Agrément diététicien", "value": "28349" },
+        { "@type": "PropertyValue", "name": "INAMI", "value": "5 62 413 90 601" }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenue Clémentine 39",
+        "postalCode": "1060",
+        "addressLocality": "Bruxelles",
+        "addressCountry": "BE"
+      },
+      "areaServed": { "@type": "City", "name": "Bruxelles" },
+      "location": [
+        {
+          "@type": "Place",
+          "name": "CHIREC — Hôpital Delta",
+          "address": { "@type": "PostalAddress", "streetAddress": "Boulevard du Triomphe 201", "postalCode": "1160", "addressLocality": "Auderghem", "addressCountry": "BE" }
+        },
+        {
+          "@type": "Place",
+          "name": "City Clinic Louise",
+          "address": { "@type": "PostalAddress", "streetAddress": "Avenue Louise 235B", "postalCode": "1050", "addressLocality": "Bruxelles", "addressCountry": "BE" }
+        },
+        {
+          "@type": "Place",
+          "name": "CEDAD Medical Center",
+          "address": { "@type": "PostalAddress", "streetAddress": "Rue Beekman", "addressLocality": "Uccle", "addressCountry": "BE" }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 

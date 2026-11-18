@@ -1,15 +1,10 @@
-# Site en construction.
+# Site public : l'exploration et l'indexation sont autorisées.
 #
-# On autorise volontairement l'exploration : c'est ce qui permet à Google de
-# lire la balise <meta name="robots" content="noindex"> présente dans les pages.
-# Un Disallow empêcherait Google de voir cette balise, et il pourrait alors
-# référencer l'adresse quand même.
-#
-# LE JOUR DU LANCEMENT :
-#   1. retirer la balise meta robots de chaque page
-#   2. décommenter la ligne Sitemap ci-dessous
+# Si une page doit un jour rester hors des moteurs, on ajoute
+# <meta name="robots" content="noindex"> dans cette page-là —
+# et surtout PAS un Disallow ici, qui empêcherait Google de lire la balise.
 
 User-agent: *
 Allow: /
 
-# Sitemap: https://www.valentineverdin.be/sitemap-index.xml
+Sitemap: https://www.valentineverdin.be/sitemap.xml
