@@ -20,8 +20,9 @@ qu'elles ne sont pas remplies, elles apparaîtront telles quelles sur le site.
 | E-mail | vverdin.diet@gmail.com |
 | Téléphone | +32 473 34 15 27 |
 | Adresse du siège | [À COMPLÉTER] |
-| Nom de domaine | [À COMPLÉTER] — ex. `valentineverdin.be` |
-| Langues | français, anglais |
+| Nom de domaine | **www.valentineverdin.be** (principal) · `valentineverdin.com` redirigé vers lui |
+| Langues | français, anglais, **italien** (source : Doctor Anytime et Rosa) |
+| Conventionnement | **Non-conventionnée** (source : Rosa) |
 
 ## 2. Formation et parcours
 
@@ -130,10 +131,33 @@ en anglais.
 | --- | --- | --- | --- |
 | CHIREC — Hôpital Delta | Boulevard du Triomphe 201, 1160 Auderghem | via le CHIREC | [À COMPLÉTER] |
 | City Clinic Louise | Avenue Louise 235B, 1050 Bruxelles | via le CHIREC | [À COMPLÉTER] |
-| Uccle — CEDAD Medical Center | Rue Beekman [numéro À COMPLÉTER], 1180 Uccle | via Doctor Anytime | [À COMPLÉTER] |
+| Uccle — CEDAD Medical Center | **Rue Beeckman 71**, 1180 Uccle | Doctor Anytime | `https://www.doctoranytime.be/d/dieteticien/verdin-valentine` |
 | Visioconsultation | depuis le monde entier, FR / EN | [À COMPLÉTER] | [À COMPLÉTER] |
 
 - Jours et horaires par lieu : [À COMPLÉTER]
+- Autre plateforme de rendez-vous : Rosa — `https://rosa.be/fr/hp/valentine-verdin-1/`
+  (Louise et Delta). Faut-il l'afficher aussi, ou garder Doctor Anytime + CHIREC ? [À COMPLÉTER]
+
+### Types de consultation et durées
+
+Relevés sur Doctor Anytime. **Les tarifs n'y sont pas publics** : la plateforme
+exige une inscription pour les afficher, et Rosa ne les montre pas non plus.
+À remplir par Valentine.
+
+| Type de consultation | Durée | Tarif |
+| --- | --- | --- |
+| Bilan nutritionnel | 60 min | [À COMPLÉTER] |
+| Intolérances alimentaires | 60 min | [À COMPLÉTER] |
+| Consultation longue | 45 min | [À COMPLÉTER] |
+| Perte de poids | 45 min | [À COMPLÉTER] |
+| Fasting Mimicking Diet | 45 min | [À COMPLÉTER] |
+| Visioconsultation | 45 min | [À COMPLÉTER] |
+| Consultation | 30 min | [À COMPLÉTER] |
+| Consultation vidéo | 30 min | [À COMPLÉTER] |
+| Appel téléphonique ou vidéo | 15 min | [À COMPLÉTER] |
+
+> Toutes ces prestations doivent-elles figurer sur le site, ou seulement
+> certaines ? [À COMPLÉTER]
 
 ## 11. Entreprises
 
@@ -182,6 +206,6 @@ Expressions qu'ils tapent dans Google :
 
 ## 15. Mise en ligne
 
-- Nom de domaine : [À COMPLÉTER]
-- Hébergeur du domaine (où sont gérés les DNS) : [À COMPLÉTER]
+- Nom de domaine : **www.valentineverdin.be** (le `.com` redirige dessus)
+- Hébergeur du domaine (où sont gérés les DNS) : **Infomaniak**
 - Ligne TXT de vérification Search Console : [À COMPLÉTER]
