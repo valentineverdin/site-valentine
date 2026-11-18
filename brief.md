@@ -1,0 +1,187 @@
+# Brief — site Valentine Verdin
+
+Ce fichier est **la source de vérité** pour tous les textes du site.
+Il a été pré-rempli à partir de la maquette existante : tout ce qui est écrit ici
+vient de toi. Les `[À COMPLÉTER]` sont les informations qui manquent — tant
+qu'elles ne sont pas remplies, elles apparaîtront telles quelles sur le site.
+
+---
+
+## 1. Identité
+
+| | |
+| --- | --- |
+| Nom | Valentine Verdin |
+| Titre | Diététicienne · Nutritionniste |
+| Société | VVERDIN DIET SRL |
+| Numéro d'entreprise (BCE) | 1037.780.531 |
+| Numéro d'agrément diététicien | 28349 |
+| INAMI | 5 62 413 90 601 |
+| E-mail | vverdin.diet@gmail.com |
+| Téléphone | +32 473 34 15 27 |
+| Adresse du siège | [À COMPLÉTER] |
+| Nom de domaine | [À COMPLÉTER] — ex. `valentineverdin.be` |
+| Langues | français, anglais |
+
+## 2. Formation et parcours
+
+- Formée à l'ULB.
+- Intégrée aux équipes du CHIREC : Clinique de l'Endométriose-Delta,
+  Clinique de la Ménopause-Delta, City Clinic Louise.
+- Année de diplôme : [À COMPLÉTER]
+- Formations complémentaires (Monash FODMAP, microbiote…) : [À COMPLÉTER]
+- Années d'expérience : [À COMPLÉTER]
+
+## 3. Accroche
+
+> Votre ventre vous gâche la vie depuis des années ?
+
+Ballonnements, fatigue, « côlon irritable » sans réponse ? Je vous aide à
+comprendre ce qui se passe — SIBO, IMO, intolérances — notamment grâce au
+Breath test, puis nous reconstruisons ensemble, étape par étape, une
+alimentation adaptée pour retrouver de l'énergie.
+
+### Ce que j'entends chaque semaine
+
+- « Le soir, j'ai l'air enceinte. »
+- « On m'a dit que c'était dans ma tête. »
+- « Je traîne ça depuis des années, sans réponse. »
+- « Je suis épuisée, le cerveau dans le brouillard. »
+- « J'ai peur de manger. »
+
+## 4. Troubles digestifs
+
+SII, ballonnements, SIBO, IMO, H2S. Interprétation du Breath test,
+Low FODMAP en 3 phases, réintroduction guidée.
+
+**Aide à la compréhension du Breath test** — SIBO (hydrogène), IMO (méthane),
+H2S : je vous aide à comprendre votre résultat et ce qu'il implique pour votre
+alimentation.
+
+- Où le Breath test se fait-il, et faut-il une prescription ? [À COMPLÉTER]
+- Coût du Breath test, et qui le facture ? [À COMPLÉTER]
+
+## 5. Ma méthode — trois phases
+
+Pas de régime à vie. On calme, on teste, puis on construit votre alimentation
+durable.
+
+1. **Éviction · ±4 semaines** — On apaise le terrain : Low FODMAP strict,
+   soutien du microbiote et, parfois, phytothérapie ciblée — en parallèle, si
+   besoin, du traitement prescrit par votre médecin. L'objectif : réduire les
+   symptômes.
+2. **Réintroduction guidée** — Famille d'aliments par famille d'aliments, on
+   identifie précisément ce que vous tolérez — et en quelle quantité.
+3. **Alimentation personnalisée** — Votre assiette durable : règle 80/20,
+   30 végétaux par semaine, le plaisir de manger sans régime permanent.
+
+## 6. Santé de la femme
+
+Endométriose, SOPK (SMOP), péri-ménopause et ménopause. Le lien
+digestion-hormones, au cœur de ma pratique au CHIREC.
+
+- Texte détaillé sur l'endométriose : [À COMPLÉTER]
+- Texte détaillé sur le SOPK : [À COMPLÉTER]
+- Texte détaillé sur la péri-ménopause et la ménopause : [À COMPLÉTER]
+- Le lien digestion-hormones, expliqué en quelques phrases : [À COMPLÉTER]
+
+## 7. Relation à la nourriture
+
+Titre existant : « Et si manger redevenait simple ? »
+
+- Texte à reprendre ou réécrire : [À COMPLÉTER]
+
+## 8. Déroulement du suivi
+
+**Un suivi d'environ 3 mois.** 4 à 5 consultations maximum : mon objectif est de
+vous rendre autonome, le plus efficacement et rapidement possible.
+Accompagné·e à chaque étape, jamais laissé·e seul·e.
+
+| Étape | Contenu |
+| --- | --- |
+| Bilan initial | Histoire, symptômes, examens. On fait le point, en lien avec votre médecin. |
+| Plan sur mesure | Menus sur 5 semaines, liste de courses, journal Monash, guides. |
+| Réintroduction | On teste, on ajuste, on élargit votre alimentation en sécurité. |
+| Lien médecin | Un courrier de suivi adressé à votre médecin après chaque bilan. |
+
+- Durée d'une première consultation : [À COMPLÉTER]
+- Durée d'une consultation de suivi : [À COMPLÉTER]
+
+## 9. Tarifs et mutuelle
+
+> ⚠️ Rien de tout cela n'existe dans la maquette actuelle. Sans ces montants,
+> la page « Déroulement et tarifs » ne peut pas être écrite.
+
+- Tarif de la première consultation (bilan initial) : [À COMPLÉTER]
+- Tarif d'une consultation de suivi : [À COMPLÉTER]
+- Tarif de la visioconsultation : [À COMPLÉTER]
+- Forfait éventuel pour le suivi complet : [À COMPLÉTER]
+- Remboursement mutuelle — montant et conditions, par mutuelle : [À COMPLÉTER]
+- Moyens de paiement acceptés : [À COMPLÉTER]
+- Conditions d'annulation : [À COMPLÉTER]
+- Faut-il une prescription du médecin ? [À COMPLÉTER]
+
+## 10. Où je consulte
+
+En présentiel ou en visioconsultation depuis le monde entier, en français comme
+en anglais.
+
+| Lieu | Adresse | Prise de rendez-vous | Lien exact |
+| --- | --- | --- | --- |
+| CHIREC — Hôpital Delta | Boulevard du Triomphe 201, 1160 Auderghem | via le CHIREC | [À COMPLÉTER] |
+| City Clinic Louise | Avenue Louise 235B, 1050 Bruxelles | via le CHIREC | [À COMPLÉTER] |
+| Uccle — CEDAD Medical Center | Rue Beekman [numéro À COMPLÉTER], 1180 Uccle | via Doctor Anytime | [À COMPLÉTER] |
+| Visioconsultation | depuis le monde entier, FR / EN | [À COMPLÉTER] | [À COMPLÉTER] |
+
+- Jours et horaires par lieu : [À COMPLÉTER]
+
+## 11. Entreprises
+
+**Conférences & ateliers microbiote.** Pour sensibiliser vos équipes à la santé
+digestive et au bien-être — en français ou en anglais.
+
+- Formats proposés et tarifs : [À COMPLÉTER]
+
+## 12. Témoignages
+
+Un avis figure déjà sur la maquette, anonyme :
+
+> « Complètement à l'écoute du ressenti du patient, avec une vraie clarté dans
+> les explications et beaucoup de sympathie. Les rendez-vous de suivi par Zoom
+> sont très pratiques. Je la recommande sans hésiter ! »
+
+- Source de cet avis (Doctor Anytime, Google…) : [À COMPLÉTER]
+- Autres avis à publier : [À COMPLÉTER]
+
+> ⚠️ Ne jamais publier de nom complet de patiente, ni d'élément permettant de
+> l'identifier.
+
+## 13. FAQ — 8 questions
+
+Les réponses alimenteront les données structurées Google.
+
+1. Combien coûte une consultation ? → [À COMPLÉTER]
+2. Suis-je remboursée par ma mutuelle ? → [À COMPLÉTER]
+3. Faut-il une prescription de mon médecin ? → [À COMPLÉTER]
+4. Consultez-vous en visio ? → Oui, depuis le monde entier, en français comme en anglais.
+5. Combien de temps dure le suivi ? → Environ 3 mois, 4 à 5 consultations maximum.
+6. Qu'est-ce que le Breath test et comment l'obtenir ? → [À COMPLÉTER]
+7. Le Low FODMAP, est-ce un régime à vie ? → Non. Trois phases : éviction (±4 semaines), réintroduction guidée, puis alimentation personnalisée durable.
+8. Consultez-vous en anglais ? → Oui, en français comme en anglais.
+
+## 14. Pour la version anglaise
+
+Public visé : les expatriés de Bruxelles.
+
+Expressions qu'ils tapent dans Google :
+`English-speaking dietitian Brussels`, `IBS dietitian Brussels`,
+`SIBO dietitian Brussels`, `bloating specialist Brussels`,
+`low FODMAP dietitian Brussels`, `endometriosis nutrition Brussels`
+
+- Ton souhaité : [À COMPLÉTER — par défaut : direct, chaleureux, concret]
+
+## 15. Mise en ligne
+
+- Nom de domaine : [À COMPLÉTER]
+- Hébergeur du domaine (où sont gérés les DNS) : [À COMPLÉTER]
+- Ligne TXT de vérification Search Console : [À COMPLÉTER]
