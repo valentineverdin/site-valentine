@@ -129,11 +129,24 @@ et en visioconsultation.
 - Remboursement mutuelle : **varie d'une mutuelle à l'autre, jusqu'à 25 €
   par consultation.** Il dépend de l'assurance complémentaire de chaque
   patiente ; c'est à elle de vérifier auprès de sa mutuelle.
-- Nombre de séances remboursées par an : [À COMPLÉTER]
-- Y a-t-il une attestation à remettre pour obtenir le remboursement ? [À COMPLÉTER]
-- Moyens de paiement acceptés : [À COMPLÉTER]
-- Conditions d'annulation : [À COMPLÉTER]
-- Faut-il une prescription du médecin ? [À COMPLÉTER]
+- Nombre de séances remboursées par an : **en général 4 à 8**, sur
+  **prescription médicale**.
+- Attestation : **une attestation de soin est remise à chaque consultation**,
+  c'est elle qui permet d'obtenir le remboursement.
+- Moyens de paiement acceptés : **cash ou QR code**.
+- **Prescription médicale** : pas obligatoire pour consulter, mais utile — elle
+  permet en général d'obtenir davantage de séances remboursées.
+
+### Conditions d'annulation (texte de Valentine, à reprendre tel quel)
+
+Pour le bon respect de mon planning et afin de garantir un accompagnement de
+qualité pour chacun·e, merci de prendre note des conditions suivantes :
+
+1. Annulation **plus de 48 h** à l'avance : sans frais.
+2. Annulation **entre 48 h et 24 h** à l'avance : 50 % du montant de la séance
+   sera facturé.
+3. Annulation **moins de 24 h** à l'avance ou absence non justifiée : la séance
+   est due en totalité.
 
 ## 10. Où je consulte
 
@@ -199,7 +212,7 @@ Les réponses alimenteront les données structurées Google.
 
 1. Combien coûte une consultation ? → Le tarif dépend de la durée : 40 € pour 15 minutes, 80 € pour 30 minutes, 100 € pour 45 minutes, 120 € pour le bilan initial d'une heure. Même grille en visioconsultation.
 2. Suis-je remboursée par ma mutuelle ? → En partie. Le montant varie d'une mutuelle à l'autre et peut aller jusqu'à 25 € par consultation. Il dépend de votre assurance complémentaire : le plus sûr est de vérifier directement auprès de votre mutuelle.
-3. Faut-il une prescription de mon médecin ? → [À COMPLÉTER]
+3. Faut-il une prescription de mon médecin ? → Non, elle n'est pas obligatoire pour me consulter. Elle reste utile : avec une prescription, votre mutuelle rembourse en général davantage de séances — entre 4 et 8 par an.
 4. Consultez-vous en visio ? → Oui, depuis le monde entier, en français comme en anglais.
 5. Combien de temps dure le suivi ? → Environ 3 mois, 4 à 5 consultations maximum.
 6. Qu'est-ce que le Breath test et comment l'obtenir ? → [À COMPLÉTER]
