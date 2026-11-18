@@ -1,0 +1,15 @@
+# Site en construction.
+#
+# On autorise volontairement l'exploration : c'est ce qui permet à Google de
+# lire la balise <meta name="robots" content="noindex"> présente dans les pages.
+# Un Disallow empêcherait Google de voir cette balise, et il pourrait alors
+# référencer l'adresse quand même.
+#
+# LE JOUR DU LANCEMENT :
+#   1. retirer la balise meta robots de chaque page
+#   2. décommenter la ligne Sitemap ci-dessous
+
+User-agent: *
+Allow: /
+
+# Sitemap: https://www.valentineverdin.be/sitemap-index.xml
