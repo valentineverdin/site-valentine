@@ -232,6 +232,13 @@ FAQ_FR = [
      "Non, surtout pas. Le protocole se déroule en trois phases : une éviction d'environ quatre "
      "semaines, puis une réintroduction guidée famille d'aliments par famille d'aliments, et "
      "enfin votre alimentation personnalisée, durable, la plus large possible."),
+    ("Je viens avec mon Breath test : pouvez-vous m'aider à le comprendre ?",
+     "Oui. Je vous aide à y voir plus clair dans votre résultat et à comprendre ce qui "
+     "distingue le SIBO (hydrogène), l'IMO (méthane) et l'ISO (sulfure d'hydrogène), ainsi que "
+     "ce que chacun implique concrètement pour votre alimentation. Ce travail s'appuie sur ma "
+     "pratique et sur mes collaborations avec des gastro-entérologues et des médecins "
+     "internistes. Le diagnostic, lui, relève de votre médecin : mon rôle est de traduire le "
+     "résultat en choix alimentaires, pas de poser ni de modifier un diagnostic."),
     ("Comment puis-je payer, et que se passe-t-il si j'annule ?",
      "Le paiement se fait en espèces ou par QR code. Pour les annulations : sans frais au-delà "
      "de 48 heures, 50 % du montant entre 48 et 24 heures, et la séance est due en totalité en "
@@ -265,6 +272,12 @@ FAQ_EN = [
      "No — quite the opposite. The protocol runs in three phases: roughly four weeks of "
      "elimination, then a guided reintroduction food group by food group, and finally your own "
      "personalised, sustainable and as varied as possible way of eating."),
+    ("I have my breath test results — can you help me make sense of them?",
+     "Yes. I help you read your result and understand what separates SIBO (hydrogen), IMO "
+     "(methane) and ISO (hydrogen sulfide), and what each of them means in practice for the way "
+     "you eat. This draws on my own practice and on my work alongside gastroenterologists and "
+     "internal medicine specialists. The diagnosis itself belongs to your doctor: my role is to "
+     "translate the result into food choices, not to make or change a diagnosis."),
     ("How do I pay, and what happens if I cancel?",
      "Payment is by cash or QR code. For cancellations: free of charge more than 48 hours "
      "ahead, 50% of the fee between 48 and 24 hours, and the full fee under 24 hours or if you "
