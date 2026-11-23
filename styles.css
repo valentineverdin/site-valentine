@@ -19,3 +19,12 @@ hr.rule{border:none;border-top:1px solid #E2DAC8;margin:0}
 .lede{font-size:clamp(1.05rem,1.4vw,1.2rem);line-height:1.7;color:#4A544C}
 .wrap{max-width:1180px;margin:0 auto;padding-left:clamp(20px,5vw,80px);padding-right:clamp(20px,5vw,80px)}
 .sct{padding-top:clamp(3.5rem,7vw,6.5rem);padding-bottom:clamp(3.5rem,7vw,6.5rem)}
+
+/* Bouton de rendez-vous fixé en bas de l'écran, sur téléphone uniquement. */
+.barre-rdv{display:none}
+@media (max-width:640px){
+  .barre-rdv{display:block;position:fixed;left:0;right:0;bottom:0;z-index:50;
+    padding:.7rem 1rem calc(.7rem + env(safe-area-inset-bottom));
+    background:rgba(246,241,233,.96);border-top:1px solid #E2DAC8}
+  body{padding-bottom:5rem}
+}

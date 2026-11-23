@@ -1,0 +1,62 @@
+name: Contrôler puis publier
+
+# À chaque envoi sur la branche principale : on contrôle le site, et on ne le
+# publie que si tous les contrôles passent. Si une page n'a pas son titre H1,
+# sa description, son adresse canonique, ses liens hreflang, ses données
+# structurées ou son lien de rendez-vous, la publication est annulée et le
+# site en ligne reste celui de la dernière version valide.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  controler:
+    name: Contrôle du site
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regénérer les pages
+        run: python3 construire.py
+
+      - name: Vérifier qu'aucune page générée ne diffère du dépôt
+        run: |
+          if ! git diff --quiet; then
+            echo "::error::Des pages générées diffèrent du dépôt."
+            echo "Lancez « python3 construire.py » en local, puis committez le résultat."
+            git diff --stat
+            exit 1
+          fi
+
+      - name: Contrôler chaque page
+        run: python3 verifier.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  publier:
+    name: Publication
+    needs: controler
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4
