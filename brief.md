@@ -155,11 +155,15 @@ en anglais.
 
 | Lieu | Adresse | Prise de rendez-vous | Lien exact |
 | --- | --- | --- | --- |
-| CHIREC — Hôpital Delta | Boulevard du Triomphe 201, 1160 Auderghem | CHIREC ou Rosa | lien CHIREC : [À COMPLÉTER] |
-| City Clinic Louise | Avenue Louise 235b, 1050 Ixelles — **ce n'est pas Delta** | CHIREC ou Rosa | lien CHIREC : [À COMPLÉTER] |
+| CHIREC — Hôpital Delta | Boulevard du Triomphe 201, 1160 Auderghem | Doctor Anytime | lien unique Doctor Anytime |
+| City Clinic Louise | Avenue Louise 235b, 1050 Ixelles — **ce n'est pas Delta** | Doctor Anytime | lien unique Doctor Anytime |
 | Uccle — CEDAD Medical Center | **Rue Beeckman 71**, 1180 Uccle | Doctor Anytime | `https://www.doctoranytime.be/d/dieteticien/verdin-valentine` |
-| Visioconsultation | depuis le monde entier, FR / EN | [À COMPLÉTER] | [À COMPLÉTER] |
+| Visioconsultation | depuis le monde entier, FR / EN / IT | Doctor Anytime | lien unique Doctor Anytime |
 
+- **Décision (23/11)** : tous les rendez-vous passent par Doctor Anytime,
+  quel que soit le lieu. Pas de lien CHIREC à ajouter.
+- **Décision (23/11)** : ne pas publier les numéros de téléphone des Cliniques
+  de l'Endométriose et de la Ménopause — risque de demandes trop nombreuses.
 - Jours et horaires par lieu : [À COMPLÉTER]
 - Autre plateforme de rendez-vous : Rosa — `https://rosa.be/fr/hp/valentine-verdin-1/`
   (Louise et Delta). Faut-il l'afficher aussi, ou garder Doctor Anytime + CHIREC ? [À COMPLÉTER]
