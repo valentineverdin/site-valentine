@@ -21,7 +21,10 @@ IDENTITE = {
     "bce": "1037.780.531",
     "agrement": "28349",
     "inami": "5 62 413 90 601",
-    "siege": "Siège social communiqué sur demande",
+    # Adresse du siège volontairement non publiée (domicile privé).
+    # Le numéro BCE identifie légalement la société, cela suffit.
+    "siege_fr": "Siège social communiqué sur demande",
+    "siege_en": "Registered office available on request",
     "email": "vverdin.diet@gmail.com",
     "tel": "+32 473 34 15 27",
     "tel_lien": "+32473341527",
@@ -134,7 +137,7 @@ def pied(lang, profondeur):
         legal = (f'<a href="{haut}mentions-legales.html" style="color:#B9C1B4;text-decoration:underline">Mentions légales</a> · '
                  f'<a href="{haut}confidentialite.html" style="color:#B9C1B4;text-decoration:underline">Politique de confidentialité (RGPD)</a>')
         mentions = (f"{i['societe']} · BCE {i['bce']} · N° d'agrément diététicien {i['agrement']} · "
-                    f"INAMI {i['inami']} · Siège : {i['siege']} · {legal} · © 2026")
+                    f"INAMI {i['inami']} · {i['siege_fr']} · {legal} · © 2026")
     else:
         metier = "Dietitian‑nutritionist · digestive disorders &amp; women's health"
         titres = ("Navigation", "Contact")
@@ -144,7 +147,7 @@ def pied(lang, profondeur):
         legal = (f'<a href="{SITE}/mentions-legales.html" hreflang="fr" lang="fr" style="color:#B9C1B4;text-decoration:underline">Mentions légales (in French)</a> · '
                  f'<a href="{SITE}/confidentialite.html" hreflang="fr" lang="fr" style="color:#B9C1B4;text-decoration:underline">Privacy policy (in French)</a>')
         mentions = (f"{i['societe']} · Company number {i['bce']} · Dietitian registration {i['agrement']} · "
-                    f"INAMI {i['inami']} · Registered office: {i['siege']} · {legal} · © 2026")
+                    f"INAMI {i['inami']} · {i['siege_en']} · {legal} · © 2026")
     nav = "\n        ".join(
         f'<p style="margin:.3rem 0"><a href="{u}" style="color:#C7BFB0">{t}</a></p>' for u, t in liens)
     return f"""<footer style="width:100%;background:#2F3A33;color:#C7BFB0">
