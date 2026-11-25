@@ -30,11 +30,16 @@ IDENTITE = {
     "tel_lien": "+32473341527",
 }
 
+# Dernier champ : mode de prise de rendez-vous.
+#   "enligne"   -> agenda Doctor Anytime
+#   "telephone" -> Delta n'apparait pas sur l'agenda Doctor Anytime
 LIEUX = [
     ("CHIREC — Hôpital Delta", "Boulevard du Triomphe 201, 1160 Auderghem",
-     "CHIREC Delta"),
-    ("City Clinic Louise", "Avenue Louise 235b, 1050 Ixelles", "City Clinic Louise"),
-    ("Uccle — CEDAD Medical Center", "Rue Beeckman 71, 1180 Uccle", "CEDAD Uccle"),
+     "CHIREC Delta", "telephone"),
+    ("City Clinic Louise", "Avenue Louise 235b, 1050 Ixelles",
+     "City Clinic Louise", "enligne"),
+    ("Uccle — CEDAD Medical Center", "Rue Beeckman 71, 1180 Uccle",
+     "CEDAD Uccle", "enligne"),
 ]
 
 TARIFS = [("15 minutes", "appel téléphonique ou vidéo", "40 €"),
@@ -337,7 +342,7 @@ def donnees_lieu(lang):
             {"@type": "Place", "name": nom,
              "address": {"@type": "PostalAddress", "streetAddress": adr,
                          "addressLocality": "Bruxelles", "addressCountry": "BE"}}
-            for nom, adr, _ in LIEUX],
+            for nom, adr, _, _mode in LIEUX],
     }, ensure_ascii=False, indent=2)
 
 
@@ -458,12 +463,26 @@ def page_rdv(lang):
         bouton = "Book an appointment"
 
     prof = 1 if lang == "fr" else 2
+    tel_txt = ("Rendez-vous par téléphone auprès du CHIREC \u2014 ce site n'apparaît pas "
+               "sur mon agenda en ligne."
+               if lang == "fr" else
+               "By phone through CHIREC \u2014 this site is not on my online diary.")
+    tel_lien = ("Me contacter" if lang == "fr" else "Contact me")
+    contact = "../contact/" if lang == "fr" else "../contact/"
     cartes = []
-    for nom, adr, _ in LIEUX:
+    for nom, adr, _, mode in LIEUX:
+        if mode == "telephone":
+            action = (f'<p style="color:#8A7E6B;line-height:1.6;font-size:.92rem;margin:0">'
+                      f'{tel_txt}</p>\n'
+                      f'        <a href="{contact}" class="btn btn-ghost" '
+                      f'style="margin-top:auto">{tel_lien}</a>')
+        else:
+            action = (f'<a href="{RDV}" class="btn btn-primary" style="margin-top:auto" '
+                      f'rel="noopener" target="_blank">{bouton}</a>')
         cartes.append(f"""      <article class="card" style="flex:1 1 300px;min-width:0">
         <h2 style="margin:0;font-size:1.3rem">{nom}</h2>
         <p style="color:#4A544C;line-height:1.6;margin:0">{adr}</p>
-        <a href="{RDV}" class="btn btn-primary" style="margin-top:auto" rel="noopener" target="_blank">{bouton}</a>
+        {action}
       </article>""")
     cartes.append(f"""      <article class="card" style="flex:1 1 300px;min-width:0;border-top:3px solid #8FA68E">
         <h2 style="margin:0;font-size:1.3rem">{visio[0]}</h2>
@@ -520,7 +539,7 @@ def page_contact(lang):
     prof = 1 if lang == "fr" else 2
     adresses = "\n".join(
         f'      <p style="margin:.5rem 0;line-height:1.7"><strong>{nom}</strong><br>{adr}</p>'
-        for nom, adr, _ in LIEUX)
+        for nom, adr, _, _mode in LIEUX)
     rdv_cible = "../rendez-vous/" if lang == "fr" else "../book-an-appointment/"
     extra = bloc_json(donnees_lieu(lang))
     html = tete(lang, titre, desc, chemin, jumelle, prof, extra)
