@@ -20,6 +20,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valentineverdin.be/rendez-vous/"/>
   </url>
   <url>
+    <loc>https://www.valentineverdin.be/a-propos/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.valentineverdin.be/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valentineverdin.be/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valentineverdin.be/a-propos/"/>
+  </url>
+  <url>
     <loc>https://www.valentineverdin.be/contact/</loc>
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.valentineverdin.be/contact/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.valentineverdin.be/en/contact/"/>
@@ -48,6 +54,12 @@
     <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.valentineverdin.be/rendez-vous/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.valentineverdin.be/en/book-an-appointment/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valentineverdin.be/rendez-vous/"/>
+  </url>
+  <url>
+    <loc>https://www.valentineverdin.be/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.valentineverdin.be/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.valentineverdin.be/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.valentineverdin.be/a-propos/"/>
   </url>
   <url>
     <loc>https://www.valentineverdin.be/en/contact/</loc>

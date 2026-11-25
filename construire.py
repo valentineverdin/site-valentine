@@ -94,6 +94,7 @@ def entete(lang, profondeur, jumelle):
                  (f"{haut}#femme", "Santé de la femme"),
                  (f"{haut}#methode", "Ma méthode"),
                  (f"{haut}deroulement-et-tarifs/", "Déroulement et tarifs"),
+                 (f"{haut}a-propos/", "À propos"),
                  (f"{haut}rendez-vous/", "Prendre rendez-vous")]
         sous = "Diététicienne · Nutritionniste"
         bouton, autre_lang, aria = "Prendre rendez‑vous", "EN", "View this site in English"
@@ -102,6 +103,7 @@ def entete(lang, profondeur, jumelle):
                  (f"{haut}#femme", "Women's health"),
                  (f"{haut}#methode", "My method"),
                  (f"{haut}how-it-works-fees/", "How it works &amp; fees"),
+                 (f"{haut}about/", "About"),
                  (f"{haut}book-an-appointment/", "Book an appointment")]
         sous = "Dietitian · Nutritionist"
         bouton, autre_lang, aria = "Book an appointment", "FR", "Voir ce site en français"
@@ -549,6 +551,126 @@ def page_contact(lang):
     return chemin, html
 
 
+def page_apropos(lang):
+    if lang == "fr":
+        chemin, jumelle = "/a-propos/", "/en/about/"
+        titre = "À propos — Valentine Verdin, diététicienne à Bruxelles"
+        desc = ("Parcours, formations et approche de Valentine Verdin, "
+                "diététicienne-nutritionniste à Bruxelles : IPL, ULB et certification "
+                "FODMAP Monash University.")
+        h1 = "Comprendre d'abord, accompagner ensuite"
+        intro = ("Je suis Valentine Verdin, diététicienne-nutritionniste à Bruxelles. Ma "
+                 "conviction : derrière des symptômes digestifs ou hormonaux qui durent, il "
+                 "y a presque toujours une explication — et une alimentation à reconstruire, "
+                 "avec méthode et sans culpabilité.")
+        t_approche, t_parcours, t_spe = "Mon approche", "Mon parcours", "Spécialisations"
+        approche = [
+            "Une démarche scientifique, mais traduite simplement",
+            "Un travail en équipe, en lien avec votre médecin",
+            "Le corps entier : microbiote, stress, sommeil, nerf vague",
+            "Un accompagnement en français, en anglais et en italien",
+        ]
+        parcours = [
+            ("Institut Paul Lambin (IPL)", "formation en diététique"),
+            ("Université libre de Bruxelles (ULB)", "grande distinction"),
+            ("Monash University",
+             "certification au programme FODMAP, la référence internationale"),
+        ]
+        spe = ("SIBO, IMO et ISO (H2S), et interprétation du Breath test · méthode des "
+               "8 étapes, développée par le diététicien comportementaliste Florian Saffer · "
+               "nutrition anti-inflammatoire et longévité · nutrition du sport, formée par "
+               "Nouchka Simic.")
+        t_rdv = "Prendre rendez‑vous"
+    else:
+        chemin, jumelle = "/en/about/", "/a-propos/"
+        titre = "About — Valentine Verdin, dietitian in Brussels"
+        desc = ("Background, training and approach of Valentine Verdin, English-speaking "
+                "dietitian in Brussels: IPL, ULB and the Monash University FODMAP "
+                "certification.")
+        h1 = "Understand first, then support"
+        intro = ("I am Valentine Verdin, a dietitian-nutritionist in Brussels. What I "
+                 "believe: behind digestive or hormonal symptoms that drag on, there is "
+                 "almost always an explanation — and a way of eating to rebuild, with "
+                 "method and without guilt.")
+        t_approche, t_parcours, t_spe = "My approach", "My background", "Areas of focus"
+        approche = [
+            "A scientific approach, put into plain words",
+            "Teamwork, in contact with your doctor",
+            "The whole body: microbiome, stress, sleep, vagus nerve",
+            "Care in English, French and Italian",
+        ]
+        parcours = [
+            ("Institut Paul Lambin (IPL)", "training in dietetics"),
+            ("Université libre de Bruxelles (ULB)", "graduated with distinction"),
+            ("Monash University",
+             "certified in the FODMAP programme, the international reference"),
+        ]
+        spe = ("SIBO, IMO and ISO (H2S), and breath test interpretation · the eight-step "
+               "method developed by behavioural dietitian Florian Saffer · "
+               "anti-inflammatory nutrition and longevity · sports nutrition, trained by "
+               "Nouchka Simic.")
+        t_rdv = "Book an appointment"
+
+    prof = 1 if lang == "fr" else 2
+    haut = "../" * prof
+    rdv_cible = "../rendez-vous/" if lang == "fr" else "../book-an-appointment/"
+
+    puces = "\n".join(
+        '      <li style="margin:.7rem 0;padding-left:1.1rem;'
+        'border-left:2px solid #C77B58;line-height:1.7;color:#4A544C">' + p + "</li>"
+        for p in approche)
+    etapes = "\n".join(
+        '      <div style="flex:1 1 250px;min-width:0;border-top:2px solid #8FA68E;'
+        'padding-top:1.1rem">\n'
+        '        <p style="font-weight:600;margin-bottom:.35rem">' + nom + "</p>\n"
+        '        <p style="color:#4A544C;line-height:1.65;font-size:.95rem;margin:0">'
+        + d + "</p>\n      </div>"
+        for nom, d in parcours)
+
+    extra = bloc_json(donnees_lieu(lang))
+    html = tete(lang, titre, desc, chemin, jumelle, prof, extra)
+    html += entete(lang, prof, jumelle)
+    html += f"""<main>
+<section style="width:100%;background:#F6F1E9">
+  <div class="wrap sct" style="display:flex;flex-wrap:wrap;gap:clamp(2rem,5vw,4rem);align-items:center">
+    <div style="flex:1 1 380px;min-width:0">
+      <h1 style="margin:0;font-size:clamp(2rem,4.2vw,3.2rem)">{h1}</h1>
+      <p class="lede" style="margin-top:1.3rem">{intro}</p>
+      <a href="{rdv_cible}" class="btn btn-primary" style="margin-top:1.9rem">{t_rdv}</a>
+    </div>
+    <div style="flex:1 1 320px;min-width:0">
+      <img src="{haut}assets/valentine.jpg" alt="Valentine Verdin" loading="lazy"
+           decoding="async" width="1137" height="1137"
+           style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:24px;display:block;background:#1A1A1A">
+    </div>
+  </div>
+</section>
+
+<section style="width:100%;background:#E8EEE6">
+  <div class="wrap sct">
+    <h2 style="margin:0 0 1.4rem;font-size:clamp(1.8rem,3.2vw,2.4rem)">{t_approche}</h2>
+    <ul style="list-style:none;margin:0;padding:0;max-width:640px">
+{puces}
+    </ul>
+  </div>
+</section>
+
+<section style="width:100%;background:#F6F1E9">
+  <div class="wrap sct">
+    <h2 style="margin:0 0 2rem;font-size:clamp(1.8rem,3.2vw,2.4rem)">{t_parcours}</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:1.5rem">
+{etapes}
+    </div>
+    <h3 style="margin:2.6rem 0 .8rem;font-size:1.25rem">{t_spe}</h3>
+    <p style="color:#4A544C;line-height:1.75;max-width:70ch;margin:0">{spe}</p>
+  </div>
+</section>
+</main>
+{barre_mobile(lang, prof)}"""
+    html += pied(lang, prof)
+    return chemin, html
+
+
 def page_404():
     titre = "Page introuvable — Valentine Verdin"
     desc = ("Cette page n'existe pas, ou bien elle a été déplacée. Retournez à l'accueil du site de "
@@ -616,7 +738,7 @@ def ecrire(chemin, contenu):
 
 def main():
     produites = []
-    for fabrique in (page_tarifs, page_rdv, page_contact):
+    for fabrique in (page_tarifs, page_rdv, page_contact, page_apropos):
         for lang in ("fr", "en"):
             chemin, html = fabrique(lang)
             produites.append((chemin, ecrire(chemin, html)))
