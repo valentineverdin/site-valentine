@@ -21,7 +21,7 @@ IDENTITE = {
     "bce": "1037.780.531",
     "agrement": "28349",
     "inami": "5 62 413 90 601",
-    "siege": "Avenue Clémentine 39, 1060 Bruxelles",
+    "siege": "Siège social communiqué sur demande",
     "email": "vverdin.diet@gmail.com",
     "tel": "+32 473 34 15 27",
     "tel_lien": "+32473341527",

@@ -19,7 +19,7 @@ qu'elles ne sont pas remplies, elles apparaîtront telles quelles sur le site.
 | INAMI | 5 62 413 90 601 |
 | E-mail | vverdin.diet@gmail.com |
 | Téléphone | +32 473 34 15 27 |
-| Adresse du siège | Avenue Clémentine 39, 1060 Bruxelles, Belgique |
+| Adresse du siège | Siège social communiqué sur demande |
 | Nom de domaine | **www.valentineverdin.be** (principal) · `valentineverdin.com` redirigé vers lui |
 | Langues | français, anglais, **italien** (source : Doctor Anytime et Rosa) |
 | Conventionnement | **Non-conventionnée** (source : Rosa) |
