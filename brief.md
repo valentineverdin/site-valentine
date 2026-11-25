@@ -162,8 +162,12 @@ en anglais.
 
 - **Décision (23/11)** : tous les rendez-vous passent par Doctor Anytime,
   quel que soit le lieu. Pas de lien CHIREC à ajouter.
-- **Décision (23/11)** : ne pas publier les numéros de téléphone des Cliniques
-  de l'Endométriose et de la Ménopause — risque de demandes trop nombreuses.
+- **Décision (23/11, confirmée le 25/11)** : ne pas publier les numéros de
+  téléphone des Cliniques de l'Endométriose et de la Ménopause. Ce sont des
+  lignes spécifiques ; à traiter plus tard.
+- **Decision (25/11)** : Delta n'apparaît pas sur l'agenda Doctor Anytime.
+  Sa carte indique un rendez-vous par téléphone, sans numéro pour l'instant,
+  et renvoie vers la page Contact. Numéro du CHIREC à fournir : [À COMPLÉTER]
 - Jours et horaires par lieu : [À COMPLÉTER]
 - Autre plateforme de rendez-vous : Rosa — `https://rosa.be/fr/hp/valentine-verdin-1/`
   (Louise et Delta). Faut-il l'afficher aussi, ou garder Doctor Anytime + CHIREC ? [À COMPLÉTER]
