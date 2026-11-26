@@ -59,8 +59,9 @@ Low FODMAP en 3 phases, réintroduction guidée.
 H2S : je vous aide à comprendre votre résultat et ce qu'il implique pour votre
 alimentation.
 
-- Où le Breath test se fait-il, et faut-il une prescription ? [À COMPLÉTER]
-- Coût du Breath test, et qui le facture ? [À COMPLÉTER]
+- **Décision (26/11)** : les détails pratiques du Breath test (où, prescription,
+  coût) sont donnés en consultation, pas sur le site. La FAQ explique déjà que
+  Valentine aide à interpréter le résultat.
 
 ## 5. Ma méthode — trois phases
 
@@ -168,7 +169,8 @@ en anglais.
 - **Decision (25/11)** : Delta n'apparaît pas sur l'agenda Doctor Anytime.
   Sa carte indique un rendez-vous par téléphone, sans numéro pour l'instant,
   et renvoie vers la page Contact. Numéro du CHIREC à fournir : [À COMPLÉTER]
-- Jours et horaires par lieu : [À COMPLÉTER]
+- **Décision (26/11)** : les jours et horaires par lieu ne sont pas publiés ;
+  ils sont tenus à jour sur l'agenda Doctor Anytime.
 - Autre plateforme de rendez-vous : Rosa — `https://rosa.be/fr/hp/valentine-verdin-1/`
   (Louise et Delta). Faut-il l'afficher aussi, ou garder Doctor Anytime + CHIREC ? [À COMPLÉTER]
 
@@ -223,7 +225,8 @@ Les réponses alimenteront les données structurées Google.
 3. Faut-il une prescription de mon médecin ? → Non, elle n'est pas obligatoire pour me consulter. Elle reste utile : avec une prescription, votre mutuelle rembourse en général davantage de séances — entre 4 et 8 par an.
 4. Consultez-vous en visio ? → Oui, depuis le monde entier, en français comme en anglais.
 5. Combien de temps dure le suivi ? → Environ 3 mois, 4 à 5 consultations maximum.
-6. Qu'est-ce que le Breath test et comment l'obtenir ? → [À COMPLÉTER]
+6. « Je viens avec mon Breath test : pouvez-vous m'aider à le comprendre ? » →
+   déjà en ligne dans la FAQ. Les détails pratiques sont donnés en consultation.
 7. Le Low FODMAP, est-ce un régime à vie ? → Non. Trois phases : éviction (±4 semaines), réintroduction guidée, puis alimentation personnalisée durable.
 8. Consultez-vous en anglais ? → Oui, en français comme en anglais.
 

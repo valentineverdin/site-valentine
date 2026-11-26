@@ -60,8 +60,11 @@ Si un contrôle échoue, la version en ligne reste la dernière version valide.
 
 ## Reste à faire
 
-- [ ] Pages Troubles digestifs, Santé de la femme et À propos — en attente
-      des textes (endométriose, SOPK, ménopause, parcours)
-- [ ] Lien de rendez-vous CHIREC pour Delta et Louise
-- [ ] Question FAQ sur le Breath test : où, prescription, coût
-- [ ] Les 24 `[À COMPLÉTER]` restants de `brief.md`
+- [ ] Pages dédiées Troubles digestifs et Santé de la femme — en attente
+      des textes (endométriose, SOPK, ménopause). Ces sujets existent déjà
+      comme sections de l'accueil.
+- [ ] Numéro de rendez-vous CHIREC pour Delta (reporté par Valentine)
+- [ ] Les deux témoignages en attente de l'avis UPDLF
+
+Breath test et horaires : décidés — donnés en consultation / tenus à jour sur
+Doctor Anytime, pas publiés sur le site.
